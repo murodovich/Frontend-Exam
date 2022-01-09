@@ -23,6 +23,7 @@ export class ContactComponent implements OnInit {
     data! : AddressDate;
     quest!:QuestionData;
     constructor(
+        private formbuilder: FormBuilder,
         private service: AddressService,
         private question:QuestionsService,
         private formGroup: FormGroup){
