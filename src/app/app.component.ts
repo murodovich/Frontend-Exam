@@ -11,6 +11,7 @@ import { RussiaComponent } from "./Components/russia/russia.component";
 import { RegistrComponent } from "./Components/registr/registr.component";
 import { NotFoundComponent } from './pages/notfound/not-found.component';
 import { MainComponent } from './pages/main/main.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @Component({
@@ -18,7 +19,20 @@ import { MainComponent } from './pages/main/main.component';
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [CommonModule, RouterOutlet, MatToolbarModule, MatIconModule, MatButtonModule, NavbarComponent, FootersComponent, SolutionsComponent, RussiaComponent, RegistrComponent,NotFoundComponent,MainComponent]
+    imports: [CommonModule,
+              RouterOutlet, 
+              MatToolbarModule,
+              MatIconModule, 
+              MatButtonModule, 
+              NavbarComponent, 
+              FootersComponent, 
+              SolutionsComponent, 
+              RussiaComponent, 
+              RegistrComponent,
+              NotFoundComponent,
+              MainComponent,
+              HttpClientModule,
+            ]
 })
 export class AppComponent {
   title = 'Exam-Project';
