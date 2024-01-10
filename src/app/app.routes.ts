@@ -6,3 +6,4 @@ export const routes: Routes = [
     {path:'main',component:MainComponent},
     {path:'**', component:NotFoundComponent}
 ];
+ 
