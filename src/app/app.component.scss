@@ -9,7 +9,7 @@
     width: 90%;
 }
 .icon-trader img{
-    width: 100px ;
+    width: 100px !important;
 }
 .h1{
     color: #CECECE;
@@ -18,5 +18,23 @@
 }
 
 .main-div{
-    background-image: url("../assets/images/photo_2024-01-10_15-09-00.jpg");
+    margin-top: -900px;
+    padding: 0;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-main img{
+    width: 100%;
+}
+
+.h-tag{
+    margin-top: 200px;
+    margin-left: 200px;
+    color: white;
+}
+.h1-tag{
+    margin-top: 20px;
+    margin-left: 200px;
+    color: white;
 }
