@@ -22,6 +22,7 @@
     padding: 0;
     background-size: cover;
     width: 100%;
+    background-color: #0D0D0D;
 }
 
 .main-main img{
@@ -29,12 +30,30 @@
 }
 
 .h-tag{
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 200px;
     color: white;
 }
 .h1-tag{
     margin-top: 20px;
     margin-left: 200px;
+    font-size: 42px;
     color: white;
+}
+.button-border{
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #3E3E3E;
+    border :1px solid rgb(23, 165, 197);
+    color:#CECECE;
+
+
+}
+.h3-tag{
+    margin-top: 20px;
+    margin-left: 200px;
+    color:#CECECE;
+
 }
