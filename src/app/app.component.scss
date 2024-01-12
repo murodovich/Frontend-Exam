@@ -2,20 +2,9 @@
     flex: 1 1 auto;
   }
 
-.toolbar{
-    background-color: #3E3E3E;
-    margin-top: 20px;
-    border-radius: 30px;
-    width: 90%;
-}
-.icon-trader img{
-    width: 100px !important;
-}
-.h1{
-    color: #CECECE;
-    font-size: 14px;
 
-}
+
+
 
 .main-div{
     margin-top: -900px;
@@ -56,4 +45,138 @@
     margin-left: 200px;
     color:#CECECE;
 
+}
+
+.button1{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 200px;   
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding: 10px 30px;
+    background-image: linear-gradient(to right top, #6ed3fd, #3bbfff, #23a8ff, #4c8dff, #7d6bf9) ;
+    border :1px solid rgb(23, 165, 197);
+    color:white;
+}
+
+.button2{
+    margin-top: 10px;
+    border-radius: 20px; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding: 10px 30px;
+    background: transparent;
+    border :1px solid rgb(54, 53, 53);
+    color: rgb(54, 53, 53);
+
+}
+
+
+.button2 img{
+    
+    width: 40px !important;
+
+}
+
+.next-icon{
+    margin-top: 20px;
+    margin-left: 220px;
+
+    width: 30px !important;
+
+}
+
+.next-icon2{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 30px !important;
+
+}
+
+
+::placeholder{
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.icon-search{
+    margin-left: 50px;
+    margin-right: -20px;
+    width: 15px !important;
+    margin-bottom: 5px;
+
+}
+
+.search-div{
+
+    display: inline;
+}
+
+.bir{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 25px !important;
+}
+
+hr{
+    border-top: 4px solid rgb(66, 63, 63);
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 2px;
+}
+
+.h-tag3{
+
+    margin-left: 200px;
+    color: rgb(251, 248, 248);
+}
+
+.back-text{
+
+    color: blue;
+
+}
+
+.from{
+    
+    font-style: normal;
+    color:#848484;
+  
+
+}
+
+.h-lorem{
+    margin-left: 200px;
+    color: rgb(113, 111, 111);
+}
+
+.moshni{
+    width: 400px;
+    height: 220px;
+    margin-left: 500px;
+    border-radius: 10px;
+    margin-top: -100px;
+    border :3px solid #2B2B2B;
+}
+
+.nolbir{
+    width: 150px !important;
+    margin-left: 240px;
+
+}
+
+.audit{
+    color: white !important;
+    margin-top: 20px;
+    padding-left: 30px !important;
+
+
+}
+
+
+.auidit-next{
+    color:#848484;
+    margin-left: 30px;
 }
