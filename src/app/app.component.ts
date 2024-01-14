@@ -5,13 +5,14 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { NavbarComponent } from "./Components/navbar/navbar.component";
+import { FootersComponent } from "./Components/footers/footers.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [CommonModule, RouterOutlet, MatToolbarModule, MatIconModule, MatButtonModule, NavbarComponent]
+    imports: [CommonModule, RouterOutlet, MatToolbarModule, MatIconModule, MatButtonModule, NavbarComponent, FootersComponent]
 })
 export class AppComponent {
   title = 'Exam-Project';
