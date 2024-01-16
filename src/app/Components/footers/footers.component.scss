@@ -1,7 +1,14 @@
 .footers{
 
-    width: 400px !important;
+    width: 100% !important;
     height: 300px !important;
 
-    background-color: black;
+}
+
+.hr{
+    border-top: 4px solid rgb(85, 81, 81);
+    margin-left: 150px;
+    margin-right: 150px;
+    
+    height: 2px;
 }
