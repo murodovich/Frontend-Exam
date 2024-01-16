@@ -1,14 +1,104 @@
 .footers{
 
     width: 100% !important;
-    height: 300px !important;
+    height: 700px !important;
 
 }
 
-.hr{
-    border-top: 4px solid rgb(85, 81, 81);
-    margin-left: 150px;
-    margin-right: 150px;
-    
+hr{
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-right: 200px;
     height: 2px;
+    flex-shrink: 0;
+    background: #AFAFAF;
+}
+
+.images-icon{
+    width: 110px !important;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.h1{
+    margin-top: 60px;
+    margin-left: 200px;
+    color: #E1E1E1;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 24px; /* 150% */
+    text-transform: uppercase;
+}
+
+.h2{
+    margin-top: 20px;
+    margin-left: 200px;
+    color: #E1E1E1;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 24px; /* 150% */
+    text-transform: uppercase;
+}
+
+.new{
+    margin-top: -128px;
+    margin-left: 500px;
+}
+
+.h3{
+    color: #E1E1E1;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 24px; /* 150% */
+    text-transform: uppercase;
+}
+
+.h5{
+    color: #888;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+
+.new1{
+    margin-top: -440px;
+    margin-left: 750px;
+}
+
+
+.new2{
+    margin-top: -520px;
+    margin-left: 1060px;
+}
+
+
+
+.h4{
+    color: #E1E1E1;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px; /* 150% */
+}
+
+.Telegram{
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 30px;
+}
+
+.Telegram1{
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 30px;
+    margin-left: 20px;
 }
