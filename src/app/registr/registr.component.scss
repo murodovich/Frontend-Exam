@@ -3,7 +3,7 @@
 }
 
 .images{
-   height: 80%;
+   width: 100% !important;
 }
 
 hr{
@@ -12,4 +12,103 @@ hr{
     margin-right: 150px;
     margin-top: -700px;
     height: 2px;
+}
+
+.nol4{
+    margin-left: 180px;
+    font-style:bold !important;  
+    font-size: 28px;
+    color: rgb(52, 50, 50);
+}
+
+.calculat{
+    color: white !important;
+    font-size: 60px !important;
+    line-height: 65px;
+    margin-left: 200px;
+    margin-top: 270px;
+}
+
+.defination{
+    margin-left: 220px !important;
+    color: darkgrey;
+}
+
+.registr-dev{
+    width: 520px !important;
+    height: 480px !important;
+    margin-top: -400px;
+    margin-left: 850px;
+    border-radius: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(10px);
+}
+
+.search-div{
+
+    display: inline;
+}
+
+
+
+.button2{
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 10px; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding: 10px 30px;
+    color: white;
+    background: transparent;
+    border :3px solid rgb(54, 53, 53);
+    color: rgb(54, 53, 53);
+    width: 400px;
+    height: 70px;
+
+}
+
+
+.button3{
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 10px; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding: 10px 30px;
+    color: white;
+    background: transparent;
+    border :3px solid rgb(54, 53, 53);
+    color: rgb(54, 53, 53);
+    width: 400px;
+    height: 70px;
+}
+
+.button4{
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 10px; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding: 10px 30px;
+    color: white;
+    background: transparent;
+    border :3px solid rgb(54, 53, 53);
+    color: rgb(54, 53, 53);
+    width: 400px;
+    height: 70px;
+}
+
+.file{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 60px;
+    margin-top: 30px;
 }
