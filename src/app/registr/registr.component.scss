@@ -36,8 +36,8 @@ hr{
 
 .registr-dev{
     width: 520px !important;
-    height: 480px !important;
-    margin-top: -400px;
+    height: 530px !important;
+    margin-top: -450px;
     margin-left: 850px;
     border-radius: 20px;
     border-radius: 10px;
@@ -63,14 +63,15 @@ hr{
     color: white;
     background: transparent;
     border :3px solid rgb(54, 53, 53);
-    color: rgb(54, 53, 53);
+    
     width: 400px;
     height: 70px;
 
 }
 
 
-.button3{
+.button3{color: white;
+    font-size: 20px;
     margin-top: 10px;
     margin-left: 60px;
     border-radius: 10px; 
@@ -81,7 +82,8 @@ hr{
     color: white;
     background: transparent;
     border :3px solid rgb(54, 53, 53);
-    color: rgb(54, 53, 53);
+    color: white;
+    font-size: 20px;
     width: 400px;
     height: 70px;
 }
@@ -97,7 +99,8 @@ hr{
     color: white;
     background: transparent;
     border :3px solid rgb(54, 53, 53);
-    color: rgb(54, 53, 53);
+    color: white;
+    font-size: 20px;
     width: 400px;
     height: 70px;
 }
@@ -111,4 +114,47 @@ hr{
     line-height: normal;
     margin-left: 60px;
     margin-top: 30px;
+}
+
+.FileDownload{
+    width: 151px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: transparent;
+    margin-left:60px;
+    color: #FFF;
+}
+.Calculate{
+    display: inline-flex;
+    padding: 21px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+    background: linear-gradient(94deg, #6DDCFF -74.85%, #7F60F9 197.71%);
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.file1{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3;
+    text-decoration-line: underline;
+    margin-left: 300px;
+    margin-top: -50px;
 }
