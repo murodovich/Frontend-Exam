@@ -2,6 +2,12 @@
     width: 100px !important;
 }
 
+.navbars{
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+
 .h1{
     color: #CECECE;
     font-size: 14px;
@@ -21,9 +27,10 @@
 }
 
 .toolbar{
-    background-color: #3E3E3E;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
     margin-top: 20px;
-    border-radius: 30px;
+    border-radius: 50px;
     width: 90%;
 }
 
