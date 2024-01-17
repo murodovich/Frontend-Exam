@@ -9,6 +9,8 @@ import { FootersComponent } from "./Components/footers/footers.component";
 import { SolutionsComponent } from "./Components/solutions/solutions.component";
 import { RussiaComponent } from "./Components/russia/russia.component";
 import { RegistrComponent } from "./Components/registr/registr.component";
+import { NotFoundComponent } from './pages/notfound/not-found.component';
+import { MainComponent } from './pages/main/main.component';
 
 
 @Component({
@@ -16,7 +18,7 @@ import { RegistrComponent } from "./Components/registr/registr.component";
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [CommonModule, RouterOutlet, MatToolbarModule, MatIconModule, MatButtonModule, NavbarComponent, FootersComponent, SolutionsComponent, RussiaComponent, RegistrComponent]
+    imports: [CommonModule, RouterOutlet, MatToolbarModule, MatIconModule, MatButtonModule, NavbarComponent, FootersComponent, SolutionsComponent, RussiaComponent, RegistrComponent,NotFoundComponent,MainComponent]
 })
 export class AppComponent {
   title = 'Exam-Project';
