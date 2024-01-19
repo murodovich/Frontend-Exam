@@ -29,4 +29,11 @@ export class NavbarComponent {
   product() {
     this.router.navigate(['product']);
   }
+
+  support() {
+    this.router.navigate(['subcategory']);
+  }
+
 }
+
+
