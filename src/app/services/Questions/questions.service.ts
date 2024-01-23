@@ -8,12 +8,12 @@ import { Observable } from 'rxjs';
 })
 export class QuestionsService {
 
-  
+  httpOptions = {
+    header: new HttpHeaders({ 'Content-Type': 'application/json' })
+  }
   constructor(private http: HttpClient) { }
 
-  CreateQuestion(Quest:any) : Observable<QuestionData> {
-      return this.http.post<any>("http://localhost:5050/api/Question/CreateQuestions",Quest)
+  async CreateQuestion(Quest: QuestionData): Promise<Observable<QuestionData>> {
+    return await this.http.post<QuestionData>("http://localhost:5117/api/Question/CreateQuestions", Quest)
   }
-  
- 
 }
