@@ -10,40 +10,43 @@
         <h1 class="h3">{{data.phoneNumber}}</h1>
         <h1 class="h4">{{data.email}}</h1>
         <a href="https://t.me/murodovich_n1"><img class="Telegram" src="../../../assets/images/telegram.png"></a>
-        <a href="https://www.instagram.com/murodovich_n1/"><img class="Telegram1" src="../../../assets/images/instagram (1).png"></a>
-        <a href="https://www.linkedin.com/in/murodovich/"><img class="Telegram1" src="../../../assets/images/linkedin.png"></a>
+        <a href="https://www.instagram.com/murodovich_n1/"><img class="Telegram1"
+                src="../../../assets/images/instagram (1).png"></a>
+        <a href="https://www.linkedin.com/in/murodovich/"><img class="Telegram1"
+                src="../../../assets/images/linkedin.png"></a>
 
         <hr class="hr12">
 
         <h1 class="still">Still have questions?</h1>
         <h1 class="lorems">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-    
-    <div class="registr-dev">
-        
-        <div class="search-div">
-            <input class="button2" placeholder="YOUR NAME">
-        </div>
 
-        <div class="search-div">
-            <input class="button3" placeholder="+998(95)-094-03-03">
-        </div>
+        <div class="registr-dev">
+            <form [formGroup]="Contactform" method="post">
 
-        <div class="search-div">
-            <input class="button4" placeholder="YOUR QUESTIONS">
-        </div>
+                <div class="search-div">
+                    <input type="text" formControlName="name" class="button2" placeholder="YOUR NAME">
+                </div>
 
-        <div>
-            <button class="Calculate">CALL ME BACK</button>
-        </div>
+                <div class="search-div">
+                    <input type="text" formControlName="phoneNumber" class="button3" placeholder="+998(95)-094-03-03">
+                </div>
 
-        <div>
-            <h2 class="file1">
-                By clicking on the button, you <br> accept the terms of personal data <br> processing
-            </h2>
-        </div>
+                <div class="search-div">
+                    <input type="text" formControlName="questionies" class="button4" placeholder="YOUR QUESTIONS">
+                </div>
 
-        
-    </div>
+                <div>
+                    <button class="Calculate" (click)="addQuestion()">CALL ME BACK </button>
+                </div>
+
+                <div>
+                    <h2 class="file1">
+                        By clicking on the button, you <br> accept the terms of personal data <br> processing
+                    </h2>
+                </div>
+            </form>
+
+        </div>
     </div>
 
 
@@ -57,7 +60,7 @@
             s0x38aef3532bfc9f13:0x7d08b465abb8d658!8m2!3d41.353097!4d69.28806
             7!16s%2Fm%2F0jz_gbk?entry=ttu"><img class="image-maps" src="../../../assets/images/maps.jpg">
         </a>
-        
+
     </div>
 
     <br>
@@ -88,4 +91,3 @@
 </div>
 
 <app-footers></app-footers>
-
