@@ -20,9 +20,7 @@ export class FootersComponent implements OnInit {
 
   ngOnInit() {
     this.getAllAddreses()
-    // this.Address = {
-    //   PhoneNumber: '123'
-    // }
+    
   }
 
   getAllAddreses(){
