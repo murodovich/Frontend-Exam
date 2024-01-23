@@ -117,14 +117,18 @@ hr{
 }
 
 .FileDownload{
-    width: 151px;
+    width: 251px;
     height: 39px;
     flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid #FFF;
     background: transparent;
     margin-left:60px;
-    color: #FFF;
+    color: #ae9c9c;
+}
+.input-file{
+    color: #d9d7e0;
+    
 }
 .Calculate{
     display: inline-flex;
