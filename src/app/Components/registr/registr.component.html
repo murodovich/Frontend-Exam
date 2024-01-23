@@ -12,45 +12,50 @@
         </h3>
     </div>
 
-    
-    
+
+
     <div class="registr-dev">
-        <div class="search-div">
-            <input class="button2" placeholder="YOUR NAME">
-        </div>
 
-        <div class="search-div">
-            <input class="button3" placeholder="+998(95)-094-03-03">
-        </div>
+        <form [formGroup]="CalculationForm">
+            <div class="search-div">
+                <input type="text" formControlName="Name" class="button2" placeholder="YOUR NAME">
+            </div>
 
-        <div class="search-div">
-            <input class="button4" placeholder="YOUR EMAIL">
-        </div>
+            <div class="search-div">
+                <input type="text" formControlName="PhoneNumber" class="button3" placeholder="+998(95)-094-03-03">
+            </div>
 
-        <div>
-            <h2 class="file">Attach files with technical <br> specifications (optional)</h2>
-        </div>
+            <div class="search-div">
+                <input type="text" formControlName="Email" class="button4" placeholder="YOUR EMAIL">
+            </div>
 
-        <div>
-            <button class="FileDownload">Download files</button>
-        </div>
+            <div>
+                <h2 class="file">Attach files with technical <br> specifications (optional)</h2>
+            </div>
 
-        <div>
-            <button class="Calculate">Calculate cost</button>
-        </div>
+            <div>
+                <button class="FileDownload"> <input class="input-file" formControlName="FilePath"
+                        (change)="method($event)" type="file"></button>
+            </div>
 
-        <div>
-            <h2 class="file1">
-                By clicking on the button, you <br> accept the terms of personal data <br> processing
-            </h2>
-        </div>
-        
+            <div>
+                <button class="Calculate" (click)="AddCalculationsProject()">Calculate cost</button>
+            </div>
+
+            <div>
+                <h2 class="file1">
+                    By clicking on the button, you <br> accept the terms of personal data <br> processing
+                </h2>
+            </div>
+
+        </form>
+
     </div>
 
 
-        
-    
 
-    
+
+
+
 
 </div>
