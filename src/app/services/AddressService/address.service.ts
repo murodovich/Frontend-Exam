@@ -13,6 +13,6 @@ export class AddressService {
   }
 
   getAllAddress(): Observable<AddressDate>{
-    return this.http.get<AddressDate>("http://localhost:5117/api/Address/GetByIdAddress?Id=3")
+    return this.http.get<AddressDate>("http://185.217.131.187:5117/api/Address/GetByIdAddress?Id=3")
   }
 }
