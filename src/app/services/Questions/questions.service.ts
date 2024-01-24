@@ -14,6 +14,6 @@ export class QuestionsService {
   constructor(private http: HttpClient) { }
 
   async CreateQuestion(Quest: QuestionData): Promise<Observable<QuestionData>> {
-    return await this.http.post<QuestionData>("http://localhost:5117/api/Question/CreateQuestions", Quest)
+    return await this.http.post<QuestionData>("http://185.217.131.187:5117/api/Question/CreateQuestions", Quest)
   }
 }
