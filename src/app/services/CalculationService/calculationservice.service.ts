@@ -14,9 +14,9 @@ export class CalculationserviceService {
   constructor(private http: HttpClient) { }
 
   async CreateCalculations(calcul: CalculationData ): Promise<Observable<CalculationData>> {
-    return await this.http.post<CalculationData>("http://localhost:5117/api/ProjectCalculation/CreateProjectCalculator", calcul )
+    return await this.http.post<CalculationData>("http://185.217.131.187:5117/api/ProjectCalculation/CreateProjectCalculator", calcul )
   }
   async Kormon(calcul: FormData ): Promise<Observable<CalculationData>> {
-    return await this.http.post<CalculationData>("http://localhost:5117/api/ProjectCalculation/CreateProjectCalculator", calcul )
+    return await this.http.post<CalculationData>("http://185.217.131.187:5117/api/ProjectCalculation/CreateProjectCalculator", calcul )
   }
 }
