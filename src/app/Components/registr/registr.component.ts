@@ -67,6 +67,7 @@ export class RegistrComponent implements OnInit {
     (await this.api.Kormon(komron))
       .subscribe(response => {
         console.log(response);
+        alert("Salomat  rahmat! 👌");
         this.CalculationForm.reset();
       })
   }
