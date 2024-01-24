@@ -66,6 +66,7 @@ export class ContactComponent implements OnInit {
       (await this.api.CreateQuestion(this.Contactform.getRawValue()))
         .subscribe(response => {
           console.log(response);
+          alert("Biz siz bilan Aloqaga chiqamiz 😉👌");
         })
     }
   }
