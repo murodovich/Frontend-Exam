@@ -12,7 +12,9 @@ import { CommonModule } from '@angular/common';
 })
 
 export class FootersComponent implements OnInit {
+
   data! : AddressDate;
+  router: any;
   
   constructor(private service: AddressService){
     
@@ -30,6 +32,12 @@ export class FootersComponent implements OnInit {
         
       })
     
+  }
+  contact() {
+    this.router.navigate(['contact']);
+  }
+  company() {
+    this.router.navigate(['company']);
   }
 
 }
