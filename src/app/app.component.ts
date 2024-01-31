@@ -15,8 +15,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { urlToHttpOptions } from 'url';
 
-
-
 @Component({
     selector: 'app-root',
     standalone: true,
