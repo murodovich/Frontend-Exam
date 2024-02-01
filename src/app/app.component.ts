@@ -13,7 +13,7 @@ import { NotFoundComponent } from './pages/notfound/not-found.component';
 import { MainComponent } from './pages/main/main.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { urlToHttpOptions } from 'url';
+
 
 @Component({
     selector: 'app-root',
